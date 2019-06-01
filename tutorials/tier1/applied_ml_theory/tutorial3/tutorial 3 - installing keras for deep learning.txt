@@ -1,0 +1,37 @@
+Tutorial 3------------------------------------------------------------------------------------------------------------------
+
+Installing Keras for deep learning
+
+https://www.pyimagesearch.com/2016/07/18/installing-keras-for-deep-learning/
+
+The installation procedure will show you how to install Keras
+
+	With GPU support and Without GPU support
+	
+	Note: I'll make two conda environment, one for each
+	
+Keras is a minimalist, modulalr neural network library that can use either TensorFlor or Theano as a backend
+
+Primary motivation of it: You should be able to experiment super quickly - going from idea to result, as fast as possible
+
+If you're doing stuff with EC2 you probably need to use this for GPU speedup
+	https://www.pyimagesearch.com/2016/07/04/how-to-install-cuda-toolkit-and-cudnn-for-deep-learning/
+	
+Overall, installing Keras is a 4-step procedure
+	First step (optional)
+		Whether or not you would like to use Python virtual environments
+		
+	Second step (optional)
+		Whether or not you want to use the GPU to speedup training your neural networks. Need a CUDA-compatible GPU. The Keras library can run on the CPU just fine, but if you really want to train deep neural networks, you'll want to get a GPU installation setup
+		
+	Third step (option)
+		If you would like to have OpenCV binidings in your Python virtual environemnt with your Keras installation
+		
+	Fourth Step
+		Installation
+		
+		Pip install numpy scipy scikit-learn pillow h5py
+		Pip install tensorflow (this is the cpu version)
+		Pip install keras
+	
+Even if you just have the CPU version, this will enable you to follow along in future PyImageSearch tutorials on deep learning

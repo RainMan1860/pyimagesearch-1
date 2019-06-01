@@ -1,0 +1,222 @@
+Tier 1
+	1. Skin detection: A step-by-step example using Python and opencv
+	2. Getting Started with Deep Learning and Python
+	3. Deep learning on Amazon EC2 GPU with Python and nolearn
+	4. Real-time barcode detection in video with Python and OpenCV
+	5. Find distance from camera to object/marker using Python and OpenCV
+	6. (Faster) Non-maximum suppression in Python
+	7. Image pyramids with python and opencv
+	8. Sliding windows for object detection with python and opencv
+	9. Target acquired: Finding targets in drone and quadcopter video streams using python and openCV
+	10. Creating a face detection API with Python and OpenCV
+	11. Basic motion detectin and tracking with Python and OpenCV
+	12. OpenCV Track Object Movement
+	13. Scraping images with Python and Scrapy
+	14. Pedestrian Detection OpenCV
+	15. Detecting machine-readable zones in passport images
+	16. Saving key event video clips with OpenCV
+	17. Measuring distance between objects in an image with openCV
+	18. Detecting cats in images with OpenCV
+	19. Installing Keras for deep learning
+	20. Convolutions with OpenCV and Python
+	21. LeNet - Convolutional Neural Network in Python
+	22. k-NN classifier for image classification
+	23. ImageNet classification with Python and Keras
+	24. How to tune hyperparameters with Python and scikit-learn
+	25. An intro to linear classification with Python
+	26. Multi-class SVM Loss
+	27. Softmax classifiers explained
+	28. Understanding regularization for image classification and machine learning
+	29. A simple neural network with Python and Keras
+	30. Gradient descent with Python
+	31. Stochastic Gradient Descent with Python
+	32. Intersection over Union for object detection
+	33. Installing Keras with tensorflow backend
+	34. Count the total number of frames in a video with OpenCV and python
+	35. Faster video file FPS with cv2.VideoCapture and OpenCV
+	36. ImageNet: VGGNet, ResNet, Inception and Xception with Keras
+	37. Deep Learning with OpenCV
+	38. Object Detection with deep learning and OpenCV
+	39. Real-timeobject detection with deep learning and OpenCV
+	40. How-To: Multi-GPU training with Keras, Python, and deep learning
+	41. Deep learning: How OpenCV's blobFromImage works
+	42. How to create a deep learning dataset using Google Images
+	43. Image classification with Keras and deep learning
+	44. How to quickly build a deep learning image dataset
+	45. Keras and Convolutional neural Networks
+	46. Running Keras models on iOS with CoreML
+	47. A fun, hands-on deep learning project for beginners, students, and hobbyists
+	48. Multi-label classification with Keras
+	49. A gentle guide to deep learning object detection
+	50. Keras: Multiple outputs and multiple losses
+	51. How to build a custom face recognition datasete
+	52. Face recognition with OpenCV, Python, and deep learning
+	53. Simple object tracking with OpenCV
+	54. OpenCV Object Tracking
+	55. Tracking multiple objects with OpenCV
+	56. OpenCV Peeople Counter
+	57. Keras tutorial: How to get started with Keras, Deep Learning and Python
+	58. openCv face recognition
+	59. Deep learning, hydroponics, and medical marijuana
+	60. Object tracking with dlib
+	61. Multi-object tracking with dlib
+	62. YOLO Object detection with OpenCV
+	63. Mask R-CNN with OpenCV
+	64. Deep learning and medical image analysis with Keras
+	65. Keras save and load your deep learning models
+	66. How to use Keras fit and fit_generator (a hands-on tutorial)
+	67. Keras Conv2D and Convolutional Layers
+	68. Auto-Keras and  AutoML: A Getting Started Guide
+	69. Machine learning in python
+	70. Regression with Keras
+	71. Keras, Regression and cNNs
+	72. Keras: Multiple inputs and mixed data
+	73. Fashoin MNIST with Keras and deep learning
+	74. Breast cancer classification with Keras and Deep Learning
+	75. Liveliness Detection with OpenCV
+	76. Detecting Parkinson's Disease with OpenCV, Computer  Vision, and the Spiral/Wave test
+	77. Transfer Learning with Kerasa and Deep Learning
+	78. Keras: Feature extraction on large datasets with Deep Learning
+	
+Tier 2
+	Detecting circles in images using opencv and hough circles
+	OpenCV and Python K-Means Color Clustering
+	Super fast color transfer between images
+	Color Quantization with OpenCV using K-means Clustering
+	Segmentation: A SLIC superpixel tutorial using python
+	Opencv and python color detection
+	4 point OpenCV getPerspective Transform example
+	How-To: Python Compare two images
+	Finding the brightest spot in an image using Python and OpenCV
+	Finding Shapes in Images using Python and OpenCV
+	Open CV Shape Descriptor: Hu Moments Example
+	How to display Matplotlib RGB image
+	Histogram of Oriented Gradients and Object detection
+	Detecting barcodes in images with python and opencv
+	Adding a web interface to our image search engine with Flask
+	Accessing individual superpixel segmentations with python
+	Multi-scale template matching using python and opencv
+	Removing contours through an image using Python and OpenCV
+	Convert URL to image with python and open CV
+	Capturing mouse click events with Python and Open CV
+	Sorting contours using python and open cv
+	Blur detection with OpenCV
+	Analyzing 91 years of Time magazine covers for visual trends
+	HOG detectMultiScale parameters explained
+	Local binary patterns with python and openCV
+	Increasing webcam FPS with Python and OpenCV
+	OpenCV center of contour
+	OpenCV shape detection
+	Determining object color with  OpenCV
+	Transparent overlays with OpenCV
+	Ordering coordinates clockwise with Python and OpenCV
+	Finding extreme points in contours with OpenCV
+	Watermarking images with OpenCV and Python
+	Displaying a video feed with OpenCV and Tkinter
+	Detecting multiple bright spots in an image with Python and OpenCV
+	Rotate images correctly with OpenCV and python
+	Generating movie barcodes with OpenCV and Python
+	Seam carving with OpenCV, Python, and scikit-image
+	Recognizing digits with OpenCV and Python
+	Text skew correction with OpenCV and Python
+	Face Alignment with OpenCV and Python
+	Montages with OpenCV
+	Computing image "colorfulness" with OpenCV and Python
+	Image Difference with OpenCV and Python
+	Labeling superpixel colorfulness with OpenCV and Python
+	Installing Tesseract for OCR
+	Using Tesseract OCR with Python
+	Credit card OCR with OpenCV and Pythono
+	Bank check OCR with OpenV and Python
+	Fast, optimized  "for" pixel loops with OpenCV and Python
+	Image hashing with OpenCV  and Python
+	Taking screenshots with OpenCV and Python
+	Python argparse, and command line arguments
+	Reading barcodes with Python and Open MV
+	An OpenCV barcode and QR code scanner with Zbar
+	Face clustering with python
+	OpenCV Saliency Detection
+	OpenCV Text Detection
+	Neural Style Transfer with Open CV
+	Semantic segmentation with OpenCV and deep learning
+	OpenCV OCR and text recognition with Tesseract
+	Creating GIFs with OpenCV
+	Instance Segmentation with OpenCV
+	Image stitching with OpenCV and Python
+	Black and white image colorization with OpenCV and Deep Learning
+	Holistically-Nested Edge Detection with OpenCV and Deep Learning
+	Live video streaming over network with OpenCV and Image ZMQ
+	How to install CUDA toolkit and cuDNN for deep learning
+	Compiling OpenCV with CUDA support
+
+Tier 3
+	Announcing "Case Studies: Solving real world problems with computer vision"
+	How-to: 3 Ways to compare histograms using opencv and python
+	Thresholding: simple image segmentation using OpenCV
+	The complete guide to building an image search engine with Python and OpenCV
+	Install opencv and python on your raspberry Pi 2 and B+
+	Accessing the raspberry pi camera with opencv and python
+	Zero-parameter, automatic canny edge detection with python and opencv
+	Implementing RootSift in python and OpenCV
+	Home surveillance and motion detection with the Raspberry Pi, Python, OpenCV, and dropbox
+	Install OpenCV 3.0 and Python 2.7+ on OSX
+	Install …
+	Install …
+	Install …
+	Install …
+	The perfect computer  vision environment: PyCharm, OpenCV, and python virtual environments
+	How to find functions by name in Open CV
+	Implement the Max RGB filter in OpenCV
+	OpenCV Gamma Correction
+	How to install OpenCV 3 on Raspbian Jessie
+	Watershed OpenCV
+	Installing openCV on your raspberry Pi z ero
+	Increasing Raspberry Pi FPS with Python and OpenCV
+	Unifying picamera and cv2.VideoCapture into a single class with OpenCV
+	OpenCV panorama stitching
+	Multiple cameras with the Raspberry Pi and OpenCV
+	Real time panorama and image stitching with OpenCV
+	Writing to video with OpenCV
+	Install guide: Raspberry Pi 3 + Raspbian Jessie + OpenCV3
+	Accessing Rpi.GPIO and GPIO Zero with OpenCV + Python
+	OpenCV, Rpi.GPIO, and GPIO Zero on the Raspberry Pi
+	OpenCV with Tkinter
+	Ubuntu 16.04: How to install OpenCV
+	macOS: Install OpenCV 3 and Python 2.7
+	Install …
+	Install …
+	How to install dlib
+	Install dlib on the Raspberry Pi
+	Resolving macOS, OpenCV, and Homebrew install errors
+	Long exposure with OpenCV and Python
+	Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi
+	How to install mxnet for deep learning
+	Keras and deep learning on the Raspberry Pi
+	Install dlib (the easy, complete guide)
+	Getting started with the Intel Modvidius Neural Compute Stick
+	Real time object detection on the Raspberry pi with the Movidius NCS
+	Ubuntu 18.04: How to install OpenCV
+	Raspberry Pi Face Recognition
+	How to install OpenCV 4 on Ubuntu
+	Install OpenCV 4 on mac OS
+	Pip install opencv
+	Install openCV 4 on your raspberry Pi
+	Building a Raspberry Pi Security Camera with OpenCV
+	Pan/tilt face tracking with a Raspberr Pi and Open CV
+	OpenVINO, OpenCV, and Movidius NCS on the Raspberry Pi
+	Getting  started with Google Coral's TPU USB  Accelerator
+	Getting started with the NVIDIA Jetson Nano
+	Object detection and image classification with Google Coral USB Accelerator
+	
+Crash  Course
+	How to build a kick-ass mobile document scanner in just 5 minutes
+	Ball tracking with OpenCV
+	Measuring size of objects in an image with OpenCV
+	Bubble sheet multiple choice scanner and test grader using OMR, Python and OpenCV
+	Facial landmarks with dlib, OpenCV, and Python
+	Detect eyes, nose, lips, and jaw with dlib, OpenCV, and Python
+	Real-tie facial landmark detection with OpenCV, Python, and dlilb
+	Eye blink detection with OpenCV, Python and dlib
+	Drowsiness detection with OpenCV
+	Face detection with OpenCV and deep learning
+	OpenCV Tutorial: A guide to Learn OpenCV

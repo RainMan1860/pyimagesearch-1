@@ -1,0 +1,88 @@
+Tutorial 6-----------------------------------------------------------------------------------------------------------------
+
+k-NN classifier for image classification
+
+https://www.pyimagesearch.com/2016/08/08/k-nn-classifier-for-image-classification/
+
+Now that we've had a taste of Deep Learning and Convolutional Neural Networks in last week's blog post on LeNet, we're going to take a step back and start to study machine learning in the context of image classification in more depth
+
+We will be reviewing the K-Nearest Neighbor classifier
+
+We'll detail how the k-NN classifier works and then apply k-NN to the Kaggle Dogs v. Cats dataset
+
+Goal is to classify whether an image contains a dog or a cat
+
+k-NN classifier for image classification
+	
+	Again, deep learning is just a tool
+	Go to the vast majority of popular machine learning and computer vision conferences and look at the recent list of publications. Deep learning
+	
+	Yes, I will teach you about Deep Learning and Convolutional Neural Networks on this blog - but you're damn well going to understand that Deep Learning is just a TOOL and like any other tool there is a right and wrong time to use it
+
+Kaggle Dogs v. Cats dataset
+	
+	Determine whether an image is a cat or a dog
+	
+	These make the problem significantly harder
+		Viewpoint variation
+		Scale variation
+		Deformation
+		Occlusion
+		Background clutter
+		Intra-class variation
+		
+	Randomly guessing should get 50% accuracy
+	
+	A ML algorithm needs greater than 50% to show that it learned  something
+	
+	Dataset contains 25,000 images in the training data
+	
+Project Structure
+	
+	Kaggle_dogs_vs_cats
+		Train [25000 entries]
+	Knn_classifier.py
+	
+	Knn_classifier will load the dataset, establish and run the K-NN classifier, and print out the evaluation metrics
+	
+How does the k-NN classifier work
+	Most simple machine learning / image classification algorithm
+	
+	Simply relies on distance between feature vectors much like building an image search engine
+	
+	Classifies unknown datapoints by finding the most common class among the k-closest examples
+	
+	We use euclidean distance to compare images for similarity
+	
+Implementing k-NN for image classification with Python
+	
+	See code for notes
+	
+k-NN image classification results
+	
+	Python knn_classifier.py --dataset kaggle_dogs_vs_cats
+	
+	By utilizing raw pixel intensities we were able to reach 54.42% accuracy. On the other hand applying k-NN to color histograms achieved a slightly better 57.58% accuracy
+	
+	Both cases we had greater than 50% demonstrating there is an underlying pattern
+	
+	Color histograms aren't the best way
+		There are brown dogs, brown cats
+		Black dogs, black cats
+		
+	We can easily apply methods to obtain higher accuracy. Utilizing Convolutional Neural Networks, we can achieve >95% accuracy without much effort
+	
+Can we do better?
+	
+	We are only using k=1 but we could increase the size of k or the distance metric
+	
+	Classification may improve or get worse
+	
+	Nearly all machine learning algorithms require a bit of tuning to obtain optimal results
+		This is called hyperparameter tuning, which is a future topic
+		
+	
+
+
+
+

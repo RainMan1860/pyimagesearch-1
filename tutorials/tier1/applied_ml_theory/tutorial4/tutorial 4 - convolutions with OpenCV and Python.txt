@@ -1,0 +1,65 @@
+Tutorial 4-----------------------------------------------------------------------------------------------------------------
+
+Convolutions with OpenCV and Python
+
+https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
+
+Questions
+	What are image convolutions?
+	What do they do?
+	Why do we use them?
+	How do we apply them?
+	What role do they play in deep learning
+	
+You've probably already applied convolutions
+	Blurring, smoothing, edge detection, sharpening are all convolution
+	
+Convolution is simply an element-wise multiplication of two matrices followed by a sum
+
+Convolution
+	Take two matrices
+	Multiply them element by element
+	Sum the elements together
+	
+Convolutions with Open CV and Python
+	
+	Intro
+		Image is just a multi-dimensional matrix
+		Think of image as big matrix and convolutional matrix as the tiny matrix
+		
+		Tiny kernel sits on top  of the big image and slides from left-to-right and top-to-bottom applying a convolution at each (x,y) coordinate of the iamge
+		
+	Kernels
+		This is the tiny matrix
+		
+		Slides from left-to-right and top-to-bottom along the original image
+		
+		We stop and examine the neighborhood of pixels located at the center of the image kernel, and obtain a single output value, which is stored at the same x,y coordinates as the center of the kernel
+		
+		Kernels can be an arbitrary size M×N pixels provided that both M and N are odd integers
+			This ensures that the output matrix after applying the convolution is still valid
+			
+	Understanding Image convolutions
+		
+		Requires three components
+			An input image
+			A kernel matrix
+			Output image to store the output
+			
+		Steps in convolution are as descsribed above
+		
+	Implementing Convolutions with OpenCV and pythono
+		
+		We create a custom convolve method that  takes an image and a kernel
+		
+		Sometimes we will want our output image to have the same dimensions as our input image. To do this we apply padding. We simply replicate the pixels along the border of the image, such that the output image will match the dimensions of the input image
+		
+		Define different kernels
+		
+		And then example images
+		
+	The Role of Convolutions in Deep learning
+		It is possible to define a machine learning algorithm that can look at images and eventually learn these types of operators
+		
+		
+

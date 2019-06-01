@@ -1,0 +1,88 @@
+Tutorial 1------------------------------------------------------------------------------------------------------------------
+
+https://www.pyimagesearch.com/2014/09/22/getting-started-deep-learning-python/
+
+Getting Started with Deep Learning and Python
+
+Some of these packages are deprecated so I probably won't code this one
+
+Deep learning is still just a tool
+
+One of his favorite deep learning packages for Python is nolearn
+
+We'll review an example of using a Deep Belief Network to classify images from MNIST dataset
+	However, in the real-world, your dataset will not be as "nice" as the MNIST dataset
+	
+Deep learning Concepts and Assumptions
+	Hierarchies and abstractions
+	
+	Hierarchies are the number of layers in the network along with  the number of nodes per layer
+	
+	Goal of deep learning is to take low inputs (feature vectors) and construct higher and higher level abstract "concepts" through the creation of layers
+	
+	Assume that the data follows some underlying pattern
+	
+The input layer, hidden layers, and output layer
+	Deep Belief Layers
+		A hierarchy of unsupervised Restricted Boltzmann Machines where the output of each RB is used as input to the next
+		
+	Deep Nets have been trained on GPUs rather than CPUs leading to a reduction of training time by over an order of magnitude
+
+	Input Layer
+		Visible layer that contains an input node for each of the entries in the feature vector
+		MNIST each image is 28x28. Raw pixel intensities as a feature vector would be size 28*28 = 784 nodes in the  input layer
+		
+	Hidden Layer
+		Unsupervised Restricted Boltzmann Machine where the output of each RBM in the hidden layer sequence is used as input to the next
+		
+	Output Layer
+		Another visible layer. Contains the output probabilities for each class label. For MNIST, we have 10 possible labels, 1 for each digit. So we will have a probability for each digit
+		
+Utilizing a Deep Belief Network in Python
+	We will just give a code summary
+	
+	Import test_train_split, classification report, cv2, numpy and other stuff
+	
+	Use nolearn package, which is deprecated
+	
+	Get the MNIST dataset
+	
+	Split data usting, train_test_split
+	
+	Put in data into DBN
+		Give it 784 input units, 300 hidden units 10 output units
+	
+	Also, define the learning rate, the decay of the learning rate, and the number of epochs
+	
+	Training can be slow
+	
+	Then we can predict our test data and check its accuracy
+	
+	We also look at individual images
+	
+	Results
+		At each iteration the loss function is minimized and the error on the training set is lower
+		
+		 Could probably get higher results if we used more epochs
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

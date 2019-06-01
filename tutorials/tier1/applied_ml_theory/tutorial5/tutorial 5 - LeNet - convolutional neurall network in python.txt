@@ -1,0 +1,62 @@
+Tutorial 5-----------------------------------------------------------------------------------------------------------------
+
+LeNet - Convolutional Neural Network in Python
+
+Today we are going to implement our first Convolutional Neural Network
+
+We will implement the LeNet architecture using Python and Keras
+
+This tutorial will be primarily code oriented and meant to help you get your feet wet with Deep learning and convolutional neural networks
+
+Not going to spend much detail on activation functions, pooling layers, or dense/fully connected layers
+
+We will look at gory details later on
+
+We will use the MNIST dataset
+
+The LeNet architecture
+	
+	An excellent "first architecture" for Convolutional Neurall Networks
+	Small and easy to understand but large enough to provide interesting results
+	
+	In many ways it is the Hello World equivalent for Deep Learning for image classification
+	
+	INPUT -> CONV -> RELU -> POOL -> CONV -> RELU -> POOL -> FC -> RELU -> FC
+
+
+Our CNN project structure
+	Gives file structure
+	
+	Output (stores the trained network)
+	Pyimagesearch
+		Cnn (store our convolutional neural network implementations)
+			Networks (network implementations will be stored)
+				lenet
+	Lenet_mnist
+
+See code for the remainder of notes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

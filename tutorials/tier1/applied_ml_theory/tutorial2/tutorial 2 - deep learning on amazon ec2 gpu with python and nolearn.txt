@@ -1,0 +1,68 @@
+Tutorial 2------------------------------------------------------------------------------------------------------------------
+
+Deep learning on Amazon EC2 GPU with Python and nolearn
+
+https://www.pyimagesearch.com/2014/10/13/deep-learning-amazon-ec2-gpu-python-nolearn/
+
+Last week I wrote a post about CUDAMat, Deep Belief Networks, and Python using my MacBook Pro
+
+Even after installing the NVIDIA Cuda SKD and configuring CUDAMat, my CPU was training my Deep Belief Network faster than my GPU
+
+I've been told that my network isn't big enough for the GPU speedup to be fully realized
+
+I've also been told that I should be using Theano rather than nolearn as their GPU support is more advanced
+
+Also told that I shouldn't be using my MacBook Pro's GPU
+
+Read Markus Beissinger's post on installing Theano on an Amazon EC2 GPU instance
+
+Amazon offers an EC2 instance that provides access to the GPU for computation purposes. The name of this instance is g2.2xlarge and costs roughly 0.65 cents per hour. If you use Spot instances you can get this down to around 0.07 cents per hour
+
+Select out GPU instances that amazon provides
+
+Configure security groups and launch
+
+SSH into your instance
+
+Update default packages and images
+Install virtual environment and everything
+
+Then ran an MNIST classifier algorithm
+
+But the speedup in GPU training v. CPU training is not fully realized until much larger networks are trained
+
+5 minutes to train and evaluate on the CPU
+2 minutes, 20 seconds to train on the CPU
+
+Takeaway points
+	Your GPU matters a lot. The GPUs included in most notebooks are optimized for power efficiency and not necessarily computational efficiency
+	
+	The size of your network matters. If your network isn't large enough, you won't notice a significant improvement in training time between your CPU and GPU
+	
+	There is an overhead cost transferring data to the GPU. If amount of data being transferred is too small, then CPU will be more efficient
+	
+	Amazon's g2.2xlarge instance is a lot of fun to play around with. It does cost money, but if you don't want to buy a new system dedicated to Deep Learning, it's well worth the cost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

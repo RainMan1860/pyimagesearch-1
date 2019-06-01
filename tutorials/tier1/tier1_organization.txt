@@ -1,0 +1,86 @@
+Applied Machine Learning Theory (Just Notes Probably. Maybe Implement Later)
+	1. Getting Started with Deep Learning and Python
+	2. Deep learning on Amazon EC2 GPU with Python and nolearn
+	3. Installing Keras for deep learning
+	4. Convolutions with OpenCV and Python
+	5. LeNet - Convolutional Neural Network in Python
+	6. k-NN classifier for image classification
+	7. ImageNet classification with Python and Keras
+	8. How to tune hyperparameters with Python and scikit-learn
+	9. An intro to linear classification with Python
+	10. Multi-class SVM Loss
+	11. Softmax classifiers explained
+	12. Understanding regularization for image classification and machine learning
+	13. A simple neural network with Python and Keras
+	14. Gradient descent with Python
+	15. Stochastic Gradient Descent with Python
+	16. Intersection over Union for object detection
+	17. Installing Keras with tensorflow backend
+	18. Deep Learning with OpenCV
+	19. How-To: Multi-GPU training with Keras, Python, and deep learning
+	20. Deep learning: How OpenCV's blobFromImage works
+	21. Keras and Convolutional neural Networks
+	22. Running Keras models on iOS with CoreML
+	23. Multi-label classification with Keras
+	24. Keras: Multiple outputs and multiple losses
+	25. Keras tutorial: How to get started with Keras, Deep Learning and Python
+	26. Mask R-CNN with OpenCV
+	27. Keras save and load your deep learning models
+	28. How to use Keras fit and fit_generator (a hands-on tutorial)
+	29. Keras Conv2D and Convolutional Layers
+	30. Auto-Keras and  AutoML: A Getting Started Guide
+	31. Machine learning in python
+	32. Regression with Keras
+	33. Keras, Regression and cNNs
+	34. Keras: Multiple inputs and mixed data
+
+Object Detection Applications (Actually Implement)
+	1. Real-time barcode detection in video with Python and OpenCV
+	2. (Faster) Non-maximum suppression in Python
+	3. Image pyramids with python and opencv
+	4. Sliding windows for object detection with python and opencv
+	5. Target acquired: Finding targets in drone and quadcopter video streams using python and openCV
+	6. Basic motion detectin and tracking with Python and OpenCV
+	7. OpenCV Track Object Movement
+	8. Pedestrian Detection OpenCV
+	9. Detecting cats in images with OpenCV
+	10. Object Detection with deep learning and OpenCV
+	11. Real-timeobject detection with deep learning and OpenCV
+	12. A gentle guide to deep learning object detection
+	13. Simple object tracking with OpenCV
+	14. OpenCV Object Tracking
+	15. Tracking multiple objects with OpenCV
+	16. OpenCV Peeople Counter
+	17. Object tracking with dlib
+	18. Multi-object tracking with dlib
+	19. YOLO Object detection with OpenCV
+	20. Transfer Learning with Kerasa and Deep Learning
+	
+
+Non Object Detection Applications
+	1. Skin detection: A step-by-step example using Python and opencv
+	2. Find distance from camera to object/marker using Python and OpenCV
+	3. Creating a face detection API with Python and OpenCV
+	4. Scraping images with Python and Scrapy
+	5. Detecting machine-readable zones in passport images
+	6. Saving key event video clips with OpenCV
+	7. Measuring distance between objects in an image with openCV
+	8. Count the total number of frames in a video with OpenCV and python
+	9. Faster video file FPS with cv2.VideoCapture and OpenCV
+	10. ImageNet: VGGNet, ResNet, Inception and Xception with Keras
+	11. How to create a deep learning dataset using Google Images
+	12. A fun, hands-on deep learning project for beginners, students, and hobbyists
+	13. How to build a custom face recognition datasete
+	14. Face recognition with OpenCV, Python, and deep learning
+	15. openCv face recognition
+	16. Deep learning, hydroponics, and medical marijuana
+	17. Deep learning and medical image analysis with Keras
+	18. Fashoin MNIST with Keras and deep learning
+	19. Breast cancer classification with Keras and Deep Learning
+	20. Liveliness Detection with OpenCV
+	21. Detecting Parkinson's Disease with OpenCV, Computer  Vision, and the Spiral/Wave test
+	22. Keras: Feature extraction on large datasets with Deep Learning
+	
+	
+	
+	
