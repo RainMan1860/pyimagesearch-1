@@ -1,0 +1,29 @@
+Tutorial 10-----------------------------------------------------------------------------------------------------------------
+
+Multi-class SVM Loss
+
+https://www.pyimagesearch.com/2016/09/05/multi-class-svm-loss/
+
+A loss function is used to quantify how good or bad a given predictor is at classifying the input data points in a dataset
+
+Smaller the loss, the better a job the classifier is at modeling the relationship between input data and output labels
+
+Can abbreviate a scoring function as
+
+s=f(x_i,W)
+
+This implies that we can obtain the predicted score of the jth class via the ith data point
+
+s_j=f(x_i,W)_j
+
+Hinge loss function
+
+	L_i= ?_(j?y_i)¦?max?(0,s_j-s_(y_i )+1)?
+
+	Summing across all incorrect classes and comparing the output of our scoring function returned for the jth class label and the y_i  th class level
+	
+To get the loss of the entire dataset, we take the mean over each individual l_i
+
+There  is also squared hinge loss
+
+Example on the cats v. dogs dataset

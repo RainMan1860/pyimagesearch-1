@@ -1,0 +1,11 @@
+Tutorial 19------------------------------------------------------------------------------------------------------------------
+
+How-To: Multi-GPU training with Keras, Python, and deep learning
+
+https://www.pyimagesearch.com/2017/10/30/how-to-multi-gpu-training-with-keras-python-and-deep-learning/
+
+How to actually implement multi-GPU training
+
+This could be useful later
+
+Took total training time down on the problem they were doing from 74 minutes to 19 minutes

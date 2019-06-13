@@ -1,0 +1,53 @@
+Tutorial 12------------------------------------------------------------------------------------------------------------------
+
+Understanding regularization for image classification and machine learning
+
+https://www.pyimagesearch.com/2016/09/19/understanding-regularization-for-image-classification-and-machine-learning/
+
+The loss function itself does not take into account how the weight matrix "looks"
+
+Regularization is how to ensure  the model generalizes well
+
+Four common techniques are
+	L1 regularization, L2 regularization, Elastic Net, and dropout
+	
+Regularization helps us tune and control our model complexity
+
+If we don't apply regularization, our classifiers can become too complex and overfit to the training data
+
+Underfitting is relatively easy to catch but overfitting is not
+
+Normal remedy to underfitting is to just increase the complexity of the model
+
+A regularization penalty is commonly written as the function R(W)
+
+L2 regularization penalty
+	
+	R(W)=?_i¦?_j¦W_(i,j)^2 
+	
+We add
+	
+	?R(W) to the loss function
+	
+	The hyperparameter ? controls the amount or strength of the regularization we are applying
+	
+	Learning rate a and regularization rate ? are the hyperparameters that you'll spend most of your time tuning
+	
+Formula for Multi-class SVM loss including regularziation
+
+Also expand the cross-entropy loss similarly
+
+L1 regularization penalty
+
+	R(W)= ?_i¦?_j¦?|W_ij |?
+	
+Elastic Net regularization
+
+	R(W)= ?_i¦?_j¦?ßW_(i,j)^2+|W_(i,j) | ?
+	
+Dropout
+	With deep learning, this technique removes random connection between nodes to ensure that no one node is becoming fully responsible for all the learning
+	
+	
+	
+

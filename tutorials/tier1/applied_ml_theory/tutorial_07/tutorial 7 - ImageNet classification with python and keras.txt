@@ -1,0 +1,65 @@
+Tutorial 7------------------------------------------------------------------------------------------------------------------
+
+ImageNet classification with Python and Keras
+
+https://www.pyimagesearch.com/2016/08/10/imagenet-classification-with-python-and-keras/
+
+Francois Chollet pushed three Keras models online. These networks are pre-trained on the ImageNet dataset, meaning they can recognize 1000 common object classes out of the box
+
+To utilize these models in your own applications
+	You need to install Keras
+	Download the weights files for the pre-trained network(s)
+	Apply the pre-trained ImageNet networks to your own images
+	
+The weight files are in Caffe format
+
+There isn't an easy or streamlined method to convert Caffe weights to a Keras-compatible model
+
+It's now as simple as three lines of code
+	Model = VGG16(weights="imagenet")
+	Preds = model.predict(preprocess_input(image))
+	Print(decode_prediction(preds))
+	
+What is ImageNet
+	A project aimed at labeling and categorizing images into almost 22,000 categories based on a defined set of words and phrases
+	
+	ImageNet Large Scale Recognition Challenge
+		This is what people are probably referring to when talking about ImageNet
+		
+		Goal of the image classification track in this challenge is to train a model that can classify an image into 1000 separate categories using over 100,000 test images
+		
+Configuring your system for Keras and Imagenet
+
+	Pip install pillow
+	
+	You can pip freeze to list out the packages installed in your environment
+	
+Keras and Python code for ImageNet CNNs
+
+	See code
+
+	Just end up classifying different things
+	
+	Won't actually implement the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

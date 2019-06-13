@@ -1,0 +1,36 @@
+Tutorial 13------------------------------------------------------------------------------------------------------------------
+	
+A simple neural network with Python and Keras
+
+https://www.pyimagesearch.com/2016/09/26/a-simple-neural-network-with-python-and-keras/
+
+Feedforward neural networks
+	
+	Most common architecture is the feedforward network
+	
+	No backwards or inter-layer connections allowed
+	
+	The nodes in layer i are fully connected to the nodes in layer i+1
+	
+	FC -> fully connected
+	
+Example of neural network
+	
+	Layer 0
+		Contains inputs
+		
+	Layers middle 
+		Hidden layers
+		
+	Layer n
+		Output layer or visible layer
+		
+He introduced a project directory structure
+	
+Implementing your own neural network with Python and Keras
+
+Note:  A GPU is not needed for today's blog post - your laptop can run this very elementary network easily. That being said, in general, I do not recommend using a laptop for deep learning.  Laptops are for prodcutivity rather than working with TB sized datasets required for many deep learning activities
+
+I recommend Amazon AWS using my preconfigured AMI or Microsoft's DVSM
+
+Actual implementation of neural net in cats v. dogs

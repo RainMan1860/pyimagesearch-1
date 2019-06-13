@@ -1,0 +1,19 @@
+Tutorial 18------------------------------------------------------------------------------------------------------------------
+
+Deep Learning with OpenCV
+
+openCV 3.3 contains a highly improved deep learning module (dnn)
+
+Module supports a number of deep learning frameworks including Caffe, TensorFlow, and Torch/PyTorch
+
+The API for using pre-trained models is compatible with both the C++ API and the Python bindings
+
+	1) load a model from disk
+	2) Pre-process an input image
+	3) Pass the image through the network and obtain the output classifications
+	
+We cannot train deep learning models using OpenCV
+
+We can take our models trained using dedicated deep learning libraries/tools and then efficiently use them direclty inside our OpenCV
+
+Implementation of Deep Learning in OpenCV

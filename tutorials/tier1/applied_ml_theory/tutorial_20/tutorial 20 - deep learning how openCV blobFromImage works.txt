@@ -1,0 +1,34 @@
+Tutorial 20------------------------------------------------------------------------------------------------------------------
+
+Deep learning: How OpenCV's blobFromImage works
+
+To obtain (correct) predictions from deep neural networks, you first need to preprocess your data
+
+In the context of deep learning and image classification, these preprocessing tasks normally involve:
+	Mean subtraction
+	Scaling by some factor
+	
+OpenCV blobFromImage performs
+	Mean subtraction, scaling, and optionally channel swapping
+	
+Mean subtraction
+	Used to help combat illumination changes in the input images in our dataset
+	Technique used to aid our Convolutional Neural Networks
+	
+	We compute the average pixel intensity in the training set for each of the three channels
+	
+	When we are ready to pass an image through our network we subtract the mean from each input
+	
+Scaling Factor
+	
+	Adds a normalization
+	
+	s may be manually set or a standard deviation
+	
+BlobFromImage
+	
+	Arguments: image, scalefactor, size, mean, swapRB
+	
+Implementation of this function
+
+

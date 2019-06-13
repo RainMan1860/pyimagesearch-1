@@ -1,0 +1,33 @@
+Tutorial 17------------------------------------------------------------------------------------------------------------------
+
+Installing Keras with TensorFlow backend
+
+https://www.pyimagesearch.com/2016/11/14/installing-keras-with-tensorflow-backend/
+
+Today's blogpost will be installing Keras using a TensorFlow backend
+
+Instructions on how to install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

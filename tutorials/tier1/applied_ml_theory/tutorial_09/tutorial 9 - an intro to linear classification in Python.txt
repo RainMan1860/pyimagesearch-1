@@ -1,0 +1,25 @@
+Tutorial 9------------------------------------------------------------------------------------------------------------------
+
+https://www.pyimagesearch.com/2016/08/22/an-intro-to-linear-classification-with-python/
+
+An intro to linear classification in Python
+
+Simple linear classifier is a cornerstone building block of more advanced machine learning and deep learning algorithms
+
+4 components of parametrized learning and linear classifiers
+	Data
+	Score function
+	Loss function
+	Weight matrix
+	
+For linear classification we have a weights matrix and a bias vector
+
+The only parameters we have any control of are this W and b
+
+How weight matrix is optimized is dependent on the loss function but usually will use some form of gradient descent
+	
+Advantages
+	After calculating the W and b, we can discard the input data
+	Classifying new test data is fast because we simply have to multiply the input against W and then add the bias vector b
+	
+Example on the cats v. dogs dataset

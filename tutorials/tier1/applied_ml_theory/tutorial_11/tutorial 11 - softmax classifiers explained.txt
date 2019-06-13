@@ -1,0 +1,30 @@
+Tutorial 11------------------------------------------------------------------------------------------------------------------
+
+Softmax Classifiers Explained
+
+https://www.pyimagesearch.com/2016/09/12/softmax-classifiers-explained/
+
+There is a more heavily used loss function than the hinge function and hinge squared function
+
+Softmax
+	Popular term in deep learning
+	The final layer at the end of the network that yields your actual probability scores for each class label
+	
+Softmax classifiers  give you the probabilities for each class label while hinge loss gives you the margin
+
+Rank 5 accuracy
+	Whether the ground truth label is in the top 5 predicted labels
+	
+The Softmax classifier is a generalization of the binary form of logistic regression
+
+Softmax mapping function f is defined such that it takes an input set of data x and maps them to the output class labels via a simple dot product of the data x and the weight matrix W
+
+Unlike hinge loss, we interpret these scores as unnormalized log probabilities for each class label
+
+The actual exponentiation and normalization via the sum of exponents is our actual softmax function
+
+Computing the cross-entropy loss over an entire dataset is done by taking the average
+
+An actual Softmax example
+Example implemented in Cats v. Dogs
+

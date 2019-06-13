@@ -1,0 +1,57 @@
+Tutorial 14------------------------------------------------------------------------------------------------------------------
+
+Gradient Descent with Python
+
+https://www.pyimagesearch.com/2016/10/10/gradient-descent-with-python/
+
+Optimization is arguably the most important aspect of machine learning, neural networks, and deep learning
+
+Gradient descent -> most common algorithm to find optimal values of W
+
+There are two flavors
+	The standard "vanilla" implementation
+	The optimized "stochastic" version that is more commonly used
+	
+Today we will discuss the basic vanilla implementation
+
+It is an iterative optimization algorithm that operates over a loss landscape
+
+Can create analogy to a bowl
+
+	We have a robot chad
+	We place chad on a random position in our bowl
+	Now Chad has to navigate to the bottom of the bowl
+	Chad only has one sensor, which allows him to take his weight matrix W and compute a loss function L
+	
+	Chad will apply gradient descent
+		We can compute the gradient across all dimensions
+		In >1 dimensions, our gradient becomes a vector of partial derivatives
+		
+	We approximate the gradient and the process is slow
+
+The learning rate controls the size of the step
+
+Implementation in Python
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

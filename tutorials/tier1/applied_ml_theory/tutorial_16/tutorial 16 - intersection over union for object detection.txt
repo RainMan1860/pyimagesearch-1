@@ -1,0 +1,20 @@
+Tutorial 16------------------------------------------------------------------------------------------------------------------
+
+Intersection over Union (IoU) for Object Detection
+
+https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+
+Typically find IoU in evaluation off HOG + Linear SVM object detectors and Convolutional Neural Network detectors
+
+Intersection over Union Is simply an evaluation metric
+
+	Area of Overlap / Area of Union
+
+Unlike classification there isn't a single label for an image
+
+Greater the intersection over union the better the match
+
+How to implement it in Python
+
+
+

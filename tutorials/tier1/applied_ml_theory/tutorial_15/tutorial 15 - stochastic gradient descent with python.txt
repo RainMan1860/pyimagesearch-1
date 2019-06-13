@@ -1,0 +1,43 @@
+Tutorial 15------------------------------------------------------------------------------------------------------------------
+
+Stochastic Gradient Descent with Python
+
+https://www.pyimagesearch.com/2016/10/17/stochastic-gradient-descent-sgd-with-python/
+
+Gradient descent is a first-order optimization algorithm that can be used to learn a set of classifier coefficients for parameterized learning
+
+The regular version is slow
+
+Instead, we apply Stochastic Gradient Descent
+
+A simple modification to the standard gradient descent that computes the gradient and updates our weight matrix W on small batches of training data
+
+The slowness in the regular version is because each iteration requires that we compute a prediction for each training point in our training data
+
+Instead, we batch our updates
+
+In a "purist" implementation of SGD, your mini-batch size would be set to 1. However, we often use mini-batches that are grater than 1. 
+
+Using batches >1 helps reduce variance in the parameter update leading to a more stable convergence
+
+Optimized matrix operation libraries are often more efficient when the input matrix size is a power of 2
+
+The mini-batch size is not a hyperparameter you should worry about
+
+Implementing it in Python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

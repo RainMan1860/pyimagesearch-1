@@ -1,0 +1,52 @@
+Tutorial 8-----------------------------------------------------------------------------------------------------------------
+
+How to tune hyperparameters with Python and Scikit-learn
+
+Grid search and randomized search methods to tune hyperparametesr
+
+Hyperparameters are the knobs and levers you pull and turn when building a machine learning classifier
+
+Tuning hyperparameters is called hyperparameter optimization
+
+k-NN hyperparmaeters
+	Number of neighbors k
+	The distance of metric similarity function
+	
+Apply k-NN hyperparameter optimization to cats and dogs
+
+Grid search hyperparameters
+	Look at each and every combination of hyperparmaeter values
+	
+Randomized search hyperparameters
+	Use in most situations
+	Random parameters for a limited amount of time
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
